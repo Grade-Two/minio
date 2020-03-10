@@ -19,6 +19,7 @@ package gateway
 import (
 	// Import all gateways.
 	_ "github.com/minio/minio/cmd/gateway/azure"
+	_ "github.com/minio/minio/cmd/gateway/cst"
 	_ "github.com/minio/minio/cmd/gateway/gcs"
 	_ "github.com/minio/minio/cmd/gateway/hdfs"
 	_ "github.com/minio/minio/cmd/gateway/nas"
